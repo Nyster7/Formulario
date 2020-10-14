@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/margen"
+    android:paddingRight="@dimen/margen">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:hint="@string/titulo_pantalla2"
+        android:textSize="@dimen/texto_titulo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/separacion"
+        android:textSize="@dimen/texto_datos"
+        android:id="@+id/tvNombre" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/separacion"
+        android:textSize="@dimen/texto_datos"
+        android:id="@+id/tvFecha" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/separacion"
+        android:textSize="@dimen/texto_datos"
+        android:id="@+id/tvTelefono" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/separacion"
+        android:textSize="@dimen/texto_datos"
+        android:id="@+id/tvEmail" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/separacion"
+        android:textSize="@dimen/texto_datos"
+        android:id="@+id/tvDescripcion" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/separacion"
+        android:onClick="onClick"
+        android:text="@string/botoneditar_datos"
+        android:id="@+id/btnEditarDatos"/>
+
+</LinearLayout>

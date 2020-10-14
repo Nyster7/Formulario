@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margen">10dp</dimen>
+    <dimen name="separacion">20dp</dimen>
+    <dimen name="texto_titulo">30sp</dimen>
+    <dimen name="texto_datos">18sp</dimen>
+</resources>
